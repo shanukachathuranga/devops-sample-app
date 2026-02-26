@@ -1,0 +1,5 @@
+# Instruct Docker to ignore the local node_modules directory so we don't overwrite the container's Linux-native dependencies
+node_modules/
+
+# Instruct Docker to ignore local npm debug logs to keep the container image clean and small
+npm-debug.log
